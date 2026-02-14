@@ -1,0 +1,46 @@
+# Core dependencies for the Ball Environment Q-Learning project
+
+# Gymnasium (modern replacement for gym)
+gym==0.26.2
+
+# NumPy for numerical operations
+numpy==1.24.3
+
+# Pygame for environment visualization
+pygame==2.5.2
+
+# Matplotlib for plotting
+matplotlib==3.7.2
+
+# Seaborn for heatmap visualization
+seaborn==0.12.2
+
+opencv-python
+
+# Requirements for DQN Implementation
+# ====================================
+
+# Core dependencies
+numpy==1.24.3
+
+# PyTorch for deep learning
+torch==2.0.1
+torchvision==0.15.2
+
+# Pygame for environment visualization
+pygame==2.5.2
+
+# OpenCV for video recording (already in padm_env.py)
+opencv-python==4.8.0.74
+
+# Matplotlib for plotting training curves
+matplotlib==3.7.2
+
+# Gym for RL environment interface
+gym==0.26.2
+
+# Optional: For better compatibility
+setuptools==68.0.0
+
+# Note: If you have CUDA available, you can install torch with CUDA support:
+# torch==2.0.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
